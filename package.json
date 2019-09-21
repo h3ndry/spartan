@@ -13,6 +13,8 @@
   "author": "Hendrick Khoza",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "swipe": "^1.7.7"
   }
 }

@@ -1,0 +1,140 @@
+#team {
+  text-align: center;
+  color: #535353;
+  font-family: 'Roboto';
+  padding: 50px;
+  background-color: white;
+
+  h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #ff1737 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+
+  h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #6c757d;
+    line-height: 1.2;
+    max-width: 650px;
+    margin: 0 auto 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+  }
+
+  p.desc {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+  }
+}
+
+.team-img {
+  position: relative;
+  margin-left: -20px;
+
+  img {
+    width: 100%;
+  }
+
+}
+
+.team-overflow {
+
+
+  .team-text {
+    text-align: center;
+    font-size: 14px;
+    padding: 2rem 0 2.5rem 0;
+
+    h4 {
+      font-size: 1.4rem;
+    }
+
+  }
+
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+  max-width: 370px;
+  margin-left: -20px;
+  background: white;
+
+}
+
+.swiper-slide-active .team-overflow:hover .team-box-content{
+  opacity: 1;
+  visibility: visible;
+  border-radius: 0;
+  bottom: 0;
+}
+
+.team-box-content {
+  background-color: #f1c30f;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  padding: 20px 0;
+  bottom: -20px;
+  z-index: 1;
+  transition: all linear .4s;
+}
+
+.swiper-slide-active .team-overflow:hover img {
+  transition: scale(1.1);
+}
+
+.team-progress .progress-item:not(:last-child) {
+  margin-bottom: 1.7rem;
+}
+
+.team-progress .progress {
+  height: 12px;
+  margin-top: 12px;
+  overflow: hidden;
+  border-radius: 50px;
+  background-color: #eaeaea;
+}
+
+.team-progress .progress-item .count { font-weight: 500}
+
+.team-progress .progress-bar {
+  height: 100%;
+  border-radius: 50px;
+  background-color: #f1c30f;
+}
+
+.w-77 {
+  width: 77% !important;
+}
+
+.w-82 {
+  width: 82% !important;
+}
+
+.team-member-slide {
+  padding-bottom: 165px;
+}
+
+.swiper-button-next,
+.swiper-button-pre {
+  background-image: none;
+}
+
+.slide-arrows {
+  color: #f1c30f;
+}
+
+
+
